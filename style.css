@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("public/uni.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.header{
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+    padding-top: 5px;
+    border-radius: 50px;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.list{
+    list-style: none;
+    margin-right: 20px;
+}
+.item{
+    display: inline-block;
+}
+a{
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+}
+a:hover{
+    color:gray;
+}
+.btn{
+    color: white;
+    background-color: red;
+    border: none;
+    margin-left: 20px;
+    height: 24px;
+    width: 85px;
+    font-weight: bold;
+}
+.btn:hover{
+    transform: scale(1.2);
+    color:gray;
+}
